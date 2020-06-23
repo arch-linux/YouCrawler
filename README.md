@@ -21,20 +21,6 @@ These are entirely speculative (obviously)
  - Training a neural net on tags
  - Compiling statistics on most used words content creators use in their videos.
 
-## How?
-
-
-```mermaid
-graph TB
-A[INPUT URL]  --> B[GET RECOMMENDED VIDEO URLS]
-B --> C[SCRAPE NEXT URL OF TAGS]
-C --> D[SAVE ITERATION TO LISTS]
-D -- ITERATIONS REQUEST IS SATISIFIED --> E[EXPORT DATA TO JSONFILES]
-D -- ITERATIONS REQUEST IS NOT SATISFIED--> A
-
-
-```
-
 ## Roadmap
 In no particular order, #5 is next on the workload
 
